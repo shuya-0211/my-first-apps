@@ -6,7 +6,6 @@ const FakeDb = require('./fake-db')
 
 const productRoutes = require('./routes/products')
 
-
 mongoose.connect(config.DB_URI,{
   useNewUrlParser:true,
   useUnifiedTopology:true
