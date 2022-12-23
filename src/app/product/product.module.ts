@@ -28,3 +28,4 @@ const routes: Routes = [
   bootstrap: [],
 })
 export class ProductModule {}
+

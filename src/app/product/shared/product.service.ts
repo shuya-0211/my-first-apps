@@ -4,7 +4,6 @@ import { products } from "src/app/products";
 @Injectable()
 export class ProductService{
 
-
     getProducts(){
         return products
     }
